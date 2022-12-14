@@ -7,7 +7,7 @@
 # - 7 -> да
 # - 1 -> нет
 
-day = int(input('Enter the day of the week from 1 to 7: '))
+day = int(input('Enter the day of the week: '))
 
 if 0 < day < 8:
 

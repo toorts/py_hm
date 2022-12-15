@@ -3,7 +3,6 @@
 #? ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для всех значений предикат.
 #? (0,0,0), (0,0,1) и тд.
 
-
 def checkPredicate(x, y, z):
     left = not (x or y or z)
     right = not x and not y and not z

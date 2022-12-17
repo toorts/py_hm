@@ -17,7 +17,7 @@ print(orig_list)
 index_list = [randint(0, len(orig_list) - 1) for _ in range(5)]
 print(f'Index list -> {index_list}')
 
-result_list = [orig_list[index_list[i]] for i in range(5)]
-print(f'Element list -> {result_list}')
+element_list = [orig_list[index_list[i]] for i in range(5)]
+print(f'Element list -> {element_list}')
 
-print(f'Product of elements is {prod(result_list)}')
+print(f'Product of elements is {prod(element_list)}')

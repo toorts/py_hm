@@ -9,6 +9,6 @@ n = int(input('Input a number: '))
 
 for item in range(2, n+1):
     if n % item == 0:
-        print(item)
+        print(f'Smallest divisor of {n} is {item}')
         break
 

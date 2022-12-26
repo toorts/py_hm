@@ -12,4 +12,4 @@ lst = [randint(0, 9) for _ in range(num)]
 print(lst)
 
 res = sum([x for x in lst[1::2]])
-print(res)
+print(f'Sum of the odd elements is {res}')

@@ -5,10 +5,7 @@
 from math import pi
 
 num = int(input('Input a number: '))
+print(str(pi)[:num+2])
 
 # через форматирование (БЕЗ round;))))
 # print(f'{pi:0.{num}f}')
-
-p = str(pi)
-print(p[:num+2])
-

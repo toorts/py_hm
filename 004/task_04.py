@@ -16,7 +16,12 @@ lst = [randint(0, 100) for _ in range(k+1)]
 
 result = []
 for i in range(len(lst)):
-    result.append(f'{lst[i]}x^{i}')
+    if i == 0:
+        result.append(f'{lst[i]}')
+    elif i == 1:
+        result.append(f'{lst[i]}x')   
+    else:
+        result.append(f'{lst[i]}x^{i}')
 
 result = ' + '.join(result[::-1])
 

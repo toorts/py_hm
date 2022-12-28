@@ -19,7 +19,7 @@ def find_factor(n):
     if n > 1:
         factor_lst.append(n)
 
-    return factor_lst
+    return ' * '.join(map(str, factor_lst))
 
 num = int(input('Input a number: '))
 print(find_factor(num))

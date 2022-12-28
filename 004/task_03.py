@@ -24,6 +24,4 @@ def find_uniques(lst):
 
 
 nums = input('Введите числа через пробел: ').split()
-nums = [int(i) for i in nums]
-
 print(*find_uniques(nums))

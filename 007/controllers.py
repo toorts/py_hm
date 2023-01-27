@@ -22,7 +22,7 @@ def menu_action():
             menu_action()
         elif num_menu == '3':
             delete_data()
-            menu_action
+            menu_action()
 
     else:
         print(f" \nВы ввели не корректное значение: {num_menu}  \n")

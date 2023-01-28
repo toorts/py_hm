@@ -1,3 +1,11 @@
+
+#? Напишите Бота, удаляющего из текста все слова, содержащие "абв". (Ввод от пользователя)
+# Пример:
+# привет приабвет ограбпв
+# Ответ:
+# привет ограбпв
+
+
 from telegram import Bot
 from telegram.ext import Updater, MessageHandler, Filters
 

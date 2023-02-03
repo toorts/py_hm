@@ -1,0 +1,6 @@
+{
+  "Afanasyev": [["Sergey", "9A"], { "math": "4 4 4", "eng": "4 5 4 5" }],
+  "Belyaev": [["Oleg", "9B"], { "eng": "4 4 4 5", "math": "5 5 5 5" }],
+  "Shustikov": [["Arseni", "1A"], { "fra": "5 5 5 5" }],
+  "Panfilov": [["Alexander", "2B"], { "math": "5 5 5 5" }]
+}
